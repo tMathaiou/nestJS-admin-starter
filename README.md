@@ -2,7 +2,7 @@
 
 #### 1. Get the latest version
 
-You can start by cloning the latest version of Angular Admin Starter on your
+You can start by cloning the latest version of NestJS Admin Starter on your
 local machine by running:
 
 ```shell

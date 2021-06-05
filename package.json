@@ -5,15 +5,44 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "node-red": "node-red -b node-red/flow.json ./node-red/settings.js"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.4.1",
+    "cookie": "^0.4.1",
+    "final-form": "^4.20.2",
     "next": "10.2.3",
+    "next-i18next": "^8.4.0",
+    "nprogress": "^0.2.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-cookie": "^4.0.3",
+    "react-dom": "17.0.2",
+    "react-final-form": "^6.5.3",
+    "react-paginate": "^7.1.3",
+    "react-perfect-scrollbar": "^1.5.8",
+    "react-select": "^4.3.1",
+    "react-toastify": "^7.0.4",
+    "sweetalert2": "^11.0.16",
+    "sweetalert2-react-content": "^4.0.1",
+    "swr": "^0.5.6"
   },
   "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/lodash": "^4.14.170",
+    "@types/nprogress": "^0.2.0",
     "@types/react": "17.0.9",
+    "@types/react-paginate": "^7.1.0",
+    "@types/react-select": "^4.0.15",
+    "node-red": "^1.3.5",
+    "node-red-contrib-auth": "^0.1.7",
+    "node-red-contrib-socketio": "^1.0.7",
+    "node-red-contrib-socketio-server": "^0.1.5",
+    "prettier": "^2.3.0",
     "typescript": "4.3.2"
   }
 }

@@ -1,0 +1,44 @@
+.portlet {
+    height: calc(100% - 20px);
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    box-shadow: 0 0 13px 0 rgba(82, 63, 105, 0.05);
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.portletHeader {
+    transition: height 0.3s;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    position: relative;
+    padding: 0 0 0 25px;
+    border-bottom: 1px solid #ebedf2;
+    min-height: 60px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.portletHeaderTitle {
+    display: flex;
+    align-items: center;
+}
+
+.portletHeaderTitle h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #48465b;
+}
+
+.portletBody {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 4px;
+}

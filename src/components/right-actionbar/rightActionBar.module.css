@@ -1,0 +1,49 @@
+.rightSidebar {
+  display: flex;
+  align-items: stretch;
+  padding: 0 25px 0 0;
+}
+
+.languageSelector {
+  display: flex;
+  align-items: center;
+  margin: 0 0.1rem;
+}
+
+img.optionImage {
+  width: 16px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.optionDesc {
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.logoutWrapper {
+  display: flex;
+  align-items: center;
+  margin: 0 0.4rem;
+}
+
+button.btnLogout {
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.optionList {
+  display: block;
+  padding: 12px;
+  line-height: 0;
+  text-decoration: none;
+  text-transform: none;
+  vertical-align: middle;
+  position: relative;
+  cursor: pointer;
+  white-space: nowrap;
+}

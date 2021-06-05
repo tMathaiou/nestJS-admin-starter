@@ -1,0 +1,38 @@
+.vSpinner {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+}
+
+.overlayWrapper {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background: rgba(51, 51, 51, 0.15);
+}
+
+@-webkit-keyframes vScaleStretchDelay {
+    0%,
+    100% {
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1);
+    }
+    50% {
+        -webkit-transform: scaleY(0.4);
+        transform: scaleY(0.4);
+    }
+}
+
+@keyframes vScaleStretchDelay {
+    0%,
+    100% {
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1);
+    }
+    50% {
+        -webkit-transform: scaleY(0.4);
+        transform: scaleY(0.4);
+    }
+}

@@ -1,0 +1,30 @@
+.portlet {
+  height: calc(100% - 20px);
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  box-shadow: 0 0 13px 0 rgba(82, 63, 105, 0.05);
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.portletBody {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  border-radius: 4px;
+}
+.table td,
+.table th {
+  vertical-align: top;
+  border-top: 0;
+  font-weight: 500;
+  color: #74788d;
+  padding: 0.75rem;
+}
+
+.table tbody tr {
+  border-bottom: 1px dashed #ebedf2;
+}

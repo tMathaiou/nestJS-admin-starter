@@ -1,13 +1,13 @@
-# NestJS Admin Starter
+# NextJS Admin Starter
 
 #### 1. Get the latest version
 
-You can start by cloning the latest version of NestJS Admin Starter on your
+You can start by cloning the latest version of NextJS Admin Starter on your
 local machine by running:
 
 ```shell
-$ git clone https://github.com/tMathaiou/nestJS-admin-starter
-$ cd nestJS-admin-starter
+$ git clone https://github.com/tMathaiou/nextJS-admin-starter
+$ cd nextJS-admin-starter
 ```
 #### 2. Run `yarn install`
 
